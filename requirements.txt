@@ -1,11 +1,15 @@
+<<<<<<< HEAD
 asgiref==3.2.10
 braintree==4.3.0
 certifi==2020.6.20
 chardet==3.0.4
-Django==3.1.7
+Django==3.1.5
 idna==2.10
 Pillow==7.2.0
 pytz==2020.1
 requests==2.24.0
 sqlparse==0.3.1
 urllib3==1.25.10
+=======
+Django==3.1.5
+>>>>>>> 34107606f8f39fc64d1348a3ab31d972d98e0b61
