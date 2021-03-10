@@ -8,6 +8,9 @@ class Customer(models.Model):
     email = models.EmailField()
     password = models.CharField(max_length=500)
 
+    @staticmethod
+    def get_customers_by_id(ids):
+        return Customer.objects.filter(id__in=ids)
     def register(self):
         self.save()
 

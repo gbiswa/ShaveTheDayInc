@@ -12,8 +12,11 @@ class AdminCategory(admin.ModelAdmin):
     list_display = ['name']
 
 
+class AdminCustomer(admin.ModelAdmin):
+    list_display = ['first_name']
+
+
 # Register your models here.
 admin.site.register(Product, AdminProduct)
-admin.site.register(Category , AdminCategory)
-admin.site.register(Customer )
-
+admin.site.register(Category, AdminCategory)
+admin.site.register(Customer, AdminCustomer)
