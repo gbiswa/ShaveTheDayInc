@@ -1,7 +1,0 @@
-venv
-*.pyc
-__pycache__
-local_settings.py
-.idea
-db.sqlite3
-3900_Activity7_OO_Python_sv.pdf
