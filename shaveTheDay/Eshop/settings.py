@@ -107,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Chicago'
 
 USE_I18N = True
 
@@ -125,8 +125,8 @@ MEDIA_ROOT = BASE_DIR
 # Reference: https://www.youtube.com/watch?v=NdE-Lg2A-zw
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'priyeshg748@gmail.com'
-EMAIL_HOST_PASSWORD = 'hofydzqivvsesqkc'
+EMAIL_HOST_USER = 'rqueztech@gmail.com'
+EMAIL_HOST_PASSWORD = 'tcpyzvsnqnytxtww'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'Shave the Day <shavethedayInc.com>'
+DEFAULT_FROM_EMAIL = 'rqueztech <noreply@rqueztech.com>'

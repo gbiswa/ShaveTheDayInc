@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf6b355-6e0d-4ec1-b905-6c5bcc4a2549" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shaveTheDay/Eshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shaveTheDay/Eshop/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shaveTheDay/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/shaveTheDay/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shaveTheDay/store/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/shaveTheDay/store/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../assignment-3---django-and-automated-web-testing-rqueztech" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,6 +41,7 @@
       <updated>1615338072049</updated>
       <workItem from="1615338073188" duration="14000" />
       <workItem from="1618948336591" duration="1996000" />
+      <workItem from="1618950647223" duration="4814000" />
     </task>
     <servers />
   </component>
@@ -58,5 +58,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
