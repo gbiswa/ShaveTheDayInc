@@ -129,4 +129,4 @@ EMAIL_HOST_USER = 'rqueztech@gmail.com'
 EMAIL_HOST_PASSWORD = 'tcpyzvsnqnytxtww'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'rqueztech <noreply@rqueztech.com>'
+DEFAULT_FROM_EMAIL = 'ShaveTheDayTeam <noreply@dayshaveinc.pythonanywhere.com>'

@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shaveTheDay/Eshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shaveTheDay/Eshop/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shaveTheDay/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/shaveTheDay/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shaveTheDay/store/templates/registration/password_reset_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/shaveTheDay/store/templates/registration/password_reset_email.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,8 @@
       <updated>1615338072049</updated>
       <workItem from="1615338073188" duration="14000" />
       <workItem from="1618948336591" duration="1996000" />
-      <workItem from="1618950647223" duration="4814000" />
+      <workItem from="1618950647223" duration="6148000" />
+      <workItem from="1619039856546" duration="5950000" />
     </task>
     <servers />
   </component>
