@@ -17,8 +17,8 @@ urlpatterns = [
     path('cart', auth_middleware(Cart.as_view()) , name='cart'),
     path('orders', auth_middleware(OrderView.as_view()), name='orders'),
 
-    path('password_reset/',auth_views.PasswordResetView.as_view(),name='password_reset'),
-    path('password_reset/done/',auth_views.PasswordResetDoneView.as_view(),name='password_reset_done'),
+    path('registration/password_reset/',auth_views.PasswordResetView.as_view(),name='password_reset'),
+    path('registration/password_reset/done/',auth_views.PasswordResetDoneView.as_view(),name='password_reset_done'),
     path('reset/<uidb64>/<token>/',auth_views.PasswordResetConfirmView.as_view(),name='password_reset_confirm'),
     path('reset/done/',auth_views.PasswordResetCompleteView.as_view(),name='password_reset_complete'),
     ]

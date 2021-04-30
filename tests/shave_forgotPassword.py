@@ -11,8 +11,7 @@ class shave_ATS(unittest.TestCase):
 
     def test_shave(self):
         # Set the user and pwd to the default test profile
-        user = "shavetheday@gmail.com"
-        pwd = "Shave2021"
+        user_email = "dayshaveinc@gmail.com"
 
         # Open Chrome window, maximize, and set to default URL
         driver = self.driver
@@ -23,29 +22,22 @@ class shave_ATS(unittest.TestCase):
         # Click on the Login button
         driver.find_element_by_xpath("//*[@id=\"navbarSupportedContent\"]/ul[2]/li[3]/a").click()
 
-        # Enter the user Email in the login screen
-        elem = driver.find_element_by_id("email_form")
-        elem.send_keys(user)
-        time.sleep(3)
+        # Click on ForgotPassword button
+        driver.find_element_by_xpath("/html/body/div/div/div/form/div[3]/a")
 
-        # Enter the user Password in the login screen
-        elem = driver.find_element_by_id("pword_form")
-        elem.send_keys(pwd)
-        time.sleep(3)
+        # Enter Email Address Into Forgot Email Block
+        elem = driver.find_element_by_id("id_email")
+        elem.send_keys(user_email)
+        time.sleep(2)
 
-        # Hit the enter key to login, which defaults to the homepage
+        # Hit enter in order to enter your email for password reset
         elem.send_keys(Keys.RETURN)
-        time.sleep(3)
-
-        # Click on the Cart
-        driver.find_element_by_xpath("//*[@id=\"navbarSupportedContent\"]/ul[2]/li[1]/a").click()
-        time.sleep(3)
 
         # Click on the checkout button. If the checkout button can be clicked,login was successful.
         try:
-            driver.find_element_by_xpath("/html/body/div/div/div/a")
+            driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/div/a")
             time.sleep(3)
-            print("User Is Logged In!")
+            print("Forgot Password Link Worked!")
             assert True
 
         # If the checkout button is not found, it means the user is not logged in (only shown to users)

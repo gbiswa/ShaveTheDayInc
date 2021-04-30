@@ -81,6 +81,7 @@ class shave_ATS(unittest.TestCase):
         try:
             driver.find_element_by_xpath("/html/body/div/div/div/a")
             time.sleep(3)
+            print("User Signup Works!")
             assert True
 
         # If the checkout button is not found, it means the user is not logged in (only shown to users)
