@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf6b355-6e0d-4ec1-b905-6c5bcc4a2549" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/shave_userLogin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shaveTheDay/Eshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shaveTheDay/Eshop/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shaveTheDay/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/shaveTheDay/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shaveTheDay/store/templates/registration/password_reset_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/shaveTheDay/store/templates/registration/password_reset_email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shaveTheDay/store/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/shaveTheDay/store/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shaveTheDay/store/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/shaveTheDay/store/templates/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +40,76 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RunManager" selected="Python tests.Unittests for shave_userLogin.shave_ATS.test_shave">
+    <configuration name="Unittests for shave_userLogin.shave_ATS.test_shave" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ShaveTheDayInc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;shave_userLogin.shave_ATS.test_shave&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in shave_userLogin.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ShaveTheDayInc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/shave_userLogin.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in unitTest_addUsers.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ShaveTheDayInc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/unitTest_addUsers.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in unitTest_loginGood.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ShaveTheDayInc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/unitTest_loginGood.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for shave_userLogin.shave_ATS.test_shave" />
+        <item itemvalue="Python tests.Unittests in shave_userLogin.py" />
+        <item itemvalue="Python tests.Unittests in unitTest_loginGood.py" />
+        <item itemvalue="Python tests.Unittests in unitTest_addUsers.py" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,6 +122,8 @@
       <workItem from="1618948336591" duration="1996000" />
       <workItem from="1618950647223" duration="6148000" />
       <workItem from="1619039856546" duration="5950000" />
+      <workItem from="1619582297149" duration="4265000" />
+      <workItem from="1619617140108" duration="16080000" />
     </task>
     <servers />
   </component>
@@ -61,5 +141,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ShaveTheDayInc$Unittests_in_unitTest_addUsers_py.coverage" NAME="Unittests in unitTest_addUsers.py Coverage Results" MODIFIED="1619585780518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/ShaveTheDayInc$Unittests_in_shave_userLogin_py.coverage" NAME="Unittests in shave_userLogin.py Coverage Results" MODIFIED="1619636232014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/ShaveTheDayInc$Unittests_in_unitTest_loginGood_py.coverage" NAME="Unittests in unitTest_loginGood.py Coverage Results" MODIFIED="1619586103203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/ShaveTheDayInc$Unittests_for_shave_userLogin_shave_ATS_test_shave.coverage" NAME="Unittests for shave_userLogin.shave_ATS.test_shave Coverage Results" MODIFIED="1619659678644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>

@@ -27,8 +27,8 @@
                 {% endif %}
                 <!-- email -->
                 <div class="form-group">
-                    <label for="">Email</label>
-                    <input required type="email" name="email" id=""
+                    <label for="email_form">Email</label>
+                    <input required type="email" name="email" id="email_form"
                     value="{{values.email}}"
                     class=" form-control-sm form-control" placeholder="example@gmail.com">
                 </div>
@@ -36,17 +36,17 @@
 
                 <!-- password -->
                 <div class="form-group">
-                    <label for="">Password</label>
+                    <label for="pword_form">Password</label>
                     <input type="password"
                     name="password"
-                    id=""
+                    id="pword_form"
                      class="form-control form-control-sm" placeholder="********">
                 </div>
 
                 <hr>
                 <div class="form-group">
                     <input class="btn btn-sm btn-info col-lg-4" type="submit" value="Login">
-                    <a href="/password_reset" class="btn btn-sm btn-info col-rg-12">Forgot Password</a>
+                    <a href="/registration/password_reset" class="btn btn-sm btn-info col-rg-12">Forgot Password</a>
                 </div>
 
 
