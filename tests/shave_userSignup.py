@@ -79,7 +79,7 @@ class shave_ATS(unittest.TestCase):
 
         # Click on the checkout button. If the checkout button can be clicked,login was successful.
         try:
-            driver.find_element_by_xpath("/html/body/div/div/div/a")
+            driver.find_element_by_xpath("/html/body/div/div/div/a").click()
             time.sleep(3)
             print("User Signup Works!")
             assert True
