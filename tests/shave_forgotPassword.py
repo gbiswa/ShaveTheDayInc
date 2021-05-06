@@ -17,13 +17,15 @@ class shave_ATS(unittest.TestCase):
         driver = self.driver
         driver.maximize_window()
         driver.get("http://127.0.0.1:8000/")
-        time.sleep(3)
+        time.sleep(5)
 
         # Click on the Login button
         driver.find_element_by_xpath("//*[@id=\"navbarSupportedContent\"]/ul[2]/li[3]/a").click()
+        time.sleep(3)
 
         # Click on ForgotPassword button
-        driver.find_element_by_xpath("/html/body/div/div/div/form/div[3]/a")
+        driver.find_element_by_xpath("/html/body/div/div/div/form/div[3]/a").click()
+        time.sleep(3)
 
         # Enter Email Address Into Forgot Email Block
         elem = driver.find_element_by_id("id_email")
@@ -35,7 +37,7 @@ class shave_ATS(unittest.TestCase):
 
         # Click on the checkout button. If the checkout button can be clicked,login was successful.
         try:
-            driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/div/a")
+            driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/div/a").click()
             time.sleep(3)
             print("Forgot Password Link Worked!")
             assert True
