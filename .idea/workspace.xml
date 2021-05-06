@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf6b355-6e0d-4ec1-b905-6c5bcc4a2549" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shaveTheDay/store/templates/orders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shaveTheDay/store/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/shaveTheDay/store/templates/cart.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +141,7 @@
       <workItem from="1619617140108" duration="16080000" />
       <workItem from="1619760133786" duration="6811000" />
       <workItem from="1619834707581" duration="1336000" />
-      <workItem from="1620266669291" duration="149000" />
+      <workItem from="1620266669291" duration="1524000" />
     </task>
     <servers />
   </component>
